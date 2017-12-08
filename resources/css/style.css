@@ -10,6 +10,7 @@ body{
 .header{
   position: fixed;
   top: 0;
+  left: 0;
   display: inline-flex;
   height: 69px;
   width: 100%;
@@ -17,15 +18,21 @@ body{
   align-items: center;
   z-index: 5;
   background-color: inherit;
+  flex-grow: 1;
 
 }
+.header img{
+  padding-left: 10px;
+}
+
 .nav{
   position: fixed;
   display: inline-flex;
   height: auto;
   width: 100%;
   flex-direction: row;
-  padding-left: 1530px;
+  flex-grow: 1;
+  justify-content: flex-end;
 
 
 }
@@ -40,7 +47,7 @@ body{
   position: relative;
   text-align: center;
   position: relative;
-
+  flex-grow: 2;
 }
 
 
@@ -72,6 +79,7 @@ body{
   height: auto;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .mission{
@@ -81,19 +89,23 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+
 }
+
 .teas1{
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
   width: 1000px;
   height: auto;
+}
+.teas1 .teas2 img {
+  margin: 10px;
+}
 
 
-}
-.teas1 .teas2 img{
-  padding-bottom: 10px;
-}
+
 .berry{
   display: flex;
   justify-content: center;
@@ -153,14 +165,12 @@ body{
   background-image: url("../images/img-locations-background.jpg");
   width: 1200px;
   height: 500px;
+  display: block;
 }
 
-.local{
-  margin-bottom: -20;
-}
 
 .adresses{
-  display: inline-flex;
+  display: flex;
   width: auto;
   height: auto;
   align-items: center;
@@ -173,7 +183,9 @@ body{
   background-color: black;
   width: 300px;
   height: 300px;
-  margin: 20px 0px 20px 10px;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1;
 
 }
 
@@ -183,7 +195,9 @@ body{
   background-color: black;
   width: 300px;
   height: 300px;
-  margin: 20px 0px 20px 10px;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1;
 }
 
 .oakdale{
@@ -192,7 +206,9 @@ body{
   background-color: black;
   width: 300px;
   height: 300px;
-  margin: 20px 0px 20px 10px;
+  margin: 5px 20px;
+  padding: 10px;
+  opacity: 1;
 }
 
 .teacozy1{
