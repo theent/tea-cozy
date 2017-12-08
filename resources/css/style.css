@@ -24,8 +24,8 @@ body{
   display: inline-flex;
   height: auto;
   width: 100%;
-  justify-content: flex-end;
   flex-direction: row;
+  padding-left: 1530px;
 
 
 }
@@ -63,7 +63,6 @@ body{
   background-image: url("../images/img-mission-background.jpg");
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .month{
@@ -78,8 +77,8 @@ body{
 .mission{
   background-color: black;
   width: 1200px;
+  height: auto;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -92,7 +91,9 @@ body{
 
 
 }
-
+.teas1 .teas2 img{
+  padding-bottom: 10px;
+}
 .berry{
   display: flex;
   justify-content: center;
@@ -149,7 +150,63 @@ body{
 }
 
 .locations{
-  background: url("../images/img-locations-background.jpg");
+  background-image: url("../images/img-locations-background.jpg");
   width: 1200px;
   height: 500px;
+}
+
+.local{
+  margin-bottom: -20;
+}
+
+.adresses{
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.downtown{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px 0px 20px 10px;
+
+}
+
+.east{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px 0px 20px 10px;
+}
+
+.oakdale{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px 0px 20px 10px;
+}
+
+.teacozy1{
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: 200px;
+}
+
+.copyright{
+  display: flex;
+  width: auto;
+  height: auto;
+  margin: 20px;
+  text-align: left;
+  align-items: center;
 }
