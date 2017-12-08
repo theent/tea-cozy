@@ -1,1 +1,155 @@
+body{
+  background-color: black;
+  color: seashell;
+  font-family: helvetica;
+  font-size: 22px;
+  opacity: 0.9;
 
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  display: inline-flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 5;
+  background-color: inherit;
+
+}
+.nav{
+  position: fixed;
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: row;
+
+
+}
+
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  position: relative;
+
+}
+
+
+
+
+.nav span{
+  margin: 10px;
+
+}
+
+.nav a{
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+
+.first{
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.month{
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission{
+  background-color: black;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.teas1{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  height: auto;
+
+
+}
+
+.berry{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rum{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.donut{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.teas2{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+  height: auto;
+}
+
+.myrtle{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.bedford{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.locations{
+  background: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+}
